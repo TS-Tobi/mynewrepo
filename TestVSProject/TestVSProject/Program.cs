@@ -12,7 +12,14 @@ namespace TestVSProject
         {
             Console.WriteLine("Hello World");
 
+            int number = Double(3);
+            Console.WriteLine(number);
+
             Console.ReadKey();
+        }
+        static int Double(int num)
+        {
+            return num * 2;
         }
     }
 }
